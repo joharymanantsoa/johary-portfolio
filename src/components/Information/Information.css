@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+div{
+    color: var(--text-color);
+}
+
+.ligne1{
+    display: flex;
+    align-content: end;
+    justify-content: center;
+}
+
+.hi{
+   
+   align-content: end;
+}
+
+
+.nom{
+/* 
+    font-size: xx-large; */
+    align-content: end;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+
+
+@media ( hover :hover){
+    a:hover{
+    color: brown;
+    background-color: black;
+}
+}

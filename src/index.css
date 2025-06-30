@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root {
+ --main-bgcolor : #F0F0F0 ;
+ --text-color : #01295c;
+ height: max-content;
+}
+
+body{
+  background-color: var(--main-bgcolor);
+  height: 70%;
+}
