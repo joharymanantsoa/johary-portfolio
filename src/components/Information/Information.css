@@ -4,6 +4,13 @@ div{
     color: var(--text-color);
 }
 
+.hero{
+    height: 400px;
+    width: 100% ;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
 .ligne1{
     display: flex;
     align-content: end;
@@ -28,7 +35,7 @@ div{
 
 @media ( hover :hover){
     a:hover{
-    color: brown;
+    color: rgb(127, 127, 127);
     background-color: black;
 }
 }

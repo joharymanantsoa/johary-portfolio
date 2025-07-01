@@ -1,3 +1,5 @@
+    
+    
     const contact = [
         {
             id: 1,
@@ -9,7 +11,7 @@
             id: 2,
             name: "GitHub",
             icon: "fa-brands fa-github",
-            link: "" 
+            link: "href:https//github.com/joharymanantsoa" 
         },
         {
             id: 3,
@@ -19,8 +21,8 @@
         },
         {
             id: 4,
-            name: "Twitter",
-            icon: "fa-brands fa-twitter",
+            name: "Facebook",
+            icon: "fa-brands fa-facebook",
             link: ""
         }
     ];
