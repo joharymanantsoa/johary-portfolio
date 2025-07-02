@@ -11,7 +11,7 @@
             id: 2,
             name: "joharymanantsoa",
             icon: "fa-brands fa-github fa-2xl",
-            link: "href:https//github.com/joharymanantsoa" 
+            link: "href:https://github.com/joharymanantsoa" 
         },
         {
             id: 3,
