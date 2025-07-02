@@ -1,4 +1,5 @@
 import contact from './contact.js';
+import './Contact.css'
 
 
 function Contact(){
@@ -11,11 +12,11 @@ function Contact(){
                 <ul>
                     {contact.map((item) => (
                         <li key={item.id} className="flex items-center justify-center my-5">
-                            {item.icon && <i className={item.icon}></i>}
+                            {item.icon && <i className={item.icon} ></i>}
                             {item.link ? (
-                                <a href={item.link} target="_blank" rel="noopener noreferrer" className='mx-5'>{item.name}</a>
+                                <a href={item.link} target="_blank" rel="noopener noreferrer" className='mx-5 text-4xl'>{item.name}</a>
                             ) : (
-                                <span className="mx-5">{item.name}</span>
+                                <span className="mx-5 text-4xl ">{item.name}</span>
                             )}
                         </li>
                     ))}
