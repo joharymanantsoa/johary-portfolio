@@ -18,7 +18,7 @@ function Project(){
                             <div className="logo h-25 w-25 mb-4 rounded-lg flex items-center justify-center">
                                 <img src={wordpress} alt="" />
                             </div>
-                            <a href="#" className="text-blue-500 hover:underline">View Project</a>
+                            <a href="https://joharywordpress.faaaster.dev/?t=3b9bffee" className="text-blue-500 hover:underline">View Project</a>
                         </div>
                         <div className="project-card bg-white shadow-lg rounded-lg p-4">
                             <h3 className="text-xl font-bold mb-2">Reservation d'avocat en ligne</h3>
