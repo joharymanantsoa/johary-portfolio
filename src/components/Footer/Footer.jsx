@@ -7,7 +7,7 @@ function Footer(){
         <>
             <footer className="flex bg-gray-500 py-4 w-auto">
                 <div className="w-[30%] mx-auto text-center justify-center items-center p-5"> 
-                    <a href=".home">JOHARY</a>
+                    <a href=".home">JOHARY-PORTFOLIO</a>
                 </div>
                 <div className="container w-[40%] mx-auto text-center p-5">
                     <p className="text-sm">© {year} Johary. All rights reserved.</p>
