@@ -2,31 +2,25 @@ import './Information.css'
 import profil from '../../assets/johary_fond_gris.jpeg'
 
 function Information() {
-
     return(
         <>
-
-            <div className="hero flex">
-                <div className="ligne1">
-                    
-                    <div className="hi px-4">
-                        Hi, I'm 
-                    </div>
-                    
-                    <a href="#" className="nom">
-                        Johary Manantsoa
-                    </a>
-
-                </div><br />
-
-                {/* <div className="ligne2">
-                    Web developper
-                </div> */}
-                <div className="h-[128px] w-[128px]  mx-10">
-                    <img src={profil} alt="Johary Manantsoa" className="profil" />
+            <div className="hero flex justify-between items-center min-h-screen px-16">
+                <div className="flex flex-col justify-center">
+                    <div className="hi mb-2 text-3xl">Hi, I'm</div>
+                    <div className="nom text-8xl font-handwritten mb-2">JOHARY MANANTSOA</div>
+                    <div className="ligne2 text-3xl font-bold mb-2">Web Developper</div>
+                    {/* <div className="text-sm tracking-widest mb-6">UI/UX Designer - Frontend Developper</div> */}
+                </div>
+                <div className="h-[256px] w-[256px] shadow-lg rounded-lg overflow-hidden flex-shrink-0 m-5">
+                    <img src={profil} alt="Johary Manantsoa" className="profil w-full h-full object-cover" />
                 </div>
             </div>
-
+            <div className="fixed bottom-8 right-16 flex flex-col items-center">
+                <button className="btn-primary flex flex-col items-center text-base">
+                    download my Resume
+                    <span className="text-3xl mt-1 animate-bounce">&#8595;</span>
+                </button>
+            </div>
         </>
     )
 }

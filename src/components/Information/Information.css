@@ -5,7 +5,8 @@ div{
 }
 
 .hero{
-    height: 400px;
+    height: 300px;
+    max-height: 80%;
     width: 100% ;
     justify-content: center;
     align-items: center;
@@ -15,20 +16,6 @@ div{
     display: flex;
     align-content: end;
     justify-content: center;
-}
-
-.hi{
-   
-   align-content: end;
-}
-
-
-.nom{
-/* 
-    font-size: xx-large; */
-    align-content: end;
-    font-size: larger;
-    text-transform: uppercase;
 }
 
 
