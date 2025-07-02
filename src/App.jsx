@@ -11,7 +11,7 @@ function App() {
  
   return (
     <>
-     {/* <Information/> */}
+     <Information/>
 
      <Technologie/>
     
