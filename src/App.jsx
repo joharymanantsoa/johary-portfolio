@@ -15,7 +15,7 @@ function App() {
 
      <Technologie/>
     
-     {/* <Contact/> */}
+     <Contact/>
     </>
   )
 }
