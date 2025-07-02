@@ -1,5 +1,6 @@
 import './Information.css'
 import profil from '../../assets/johary_fond_gris.jpeg'
+import johary from '../../../public/CV_johary.pdf'
 
 function Information() {
     return(
@@ -16,10 +17,10 @@ function Information() {
                 </div>
             </div>
             <div className=" bottom-8 right-16 flex flex-col items-center">
-                <button className="btn-primary flex flex-col items-center text-base">
+                <a href={johary} download="CV_johary.pdf" className="btn-primary flex flex-col items-center text-base">
                     download my Resume
                     <span className="text-3xl mt-1 animate-bounce">&#8595;</span>
-                </button>
+                </a>
             </div>
         </>
     )
