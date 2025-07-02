@@ -4,6 +4,7 @@ import './App.css'
 import Information from './components/Information/Information'
 import Technologie from './components/Technologie/Technologie'
 import Contact from './components/Contact/Contact.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 
 
@@ -16,6 +17,8 @@ function App() {
      <Technologie/>
     
      <Contact/>
+
+     <Footer/>
     </>
   )
 }

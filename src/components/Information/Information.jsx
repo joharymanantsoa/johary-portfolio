@@ -4,12 +4,12 @@ import profil from '../../assets/johary_fond_gris.jpeg'
 function Information() {
     return(
         <>
-            <div className="hero flex flex-wrap justify-between items-center min-h-screen">
+            <div className="hero flex flex-wrap justify-between items-center min-h-screen" id='home'>
                 <div className="flex flex-col justify-center">
                     <div className="hi mb-2 text-3xl">Hi, I'm</div>
                     <div className="nom md:text-8xl text-xl font-handwritten mb-2">JOHARY MANANTSOA</div>
                     <div className="ligne2 text-3xl font-bold mb-2">Web Developper</div>
-                    {/* <div className="text-sm tracking-widest mb-6">UI/UX Designer - Frontend Developper</div> */}
+
                 </div>
                 <div className="h-[256px] w-[256px]  shadow-lg rounded-lg overflow-hidden flex-shrink-0 m-5">
                     <img src={profil} alt="Johary Manantsoa" className="profil w-full h-full object-cover" />
