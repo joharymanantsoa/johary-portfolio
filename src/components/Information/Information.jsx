@@ -12,7 +12,7 @@ function Information() {
                     <div className="ligne2 text-3xl font-bold mb-2">Web Developper</div>
 
                 </div>
-                <div className="h-[256px] w-[256px] shadow-lg rounded-lg overflow-hidden flex-shrink-0 m-5">
+                <div className=" h-[128px] w-[128px] md:h-[346px] md:w-[346px] shadow-lg rounded-lg overflow-hidden flex-shrink-0 m-5">
                     <img src={profil} alt="Johary Manantsoa" className="profil w-full h-full object-cover" />
                 </div>
             </div>
