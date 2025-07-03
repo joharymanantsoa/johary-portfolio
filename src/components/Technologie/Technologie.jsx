@@ -20,10 +20,10 @@ function Technologie() {
                     <div className="tech  md:h-[256px] w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5 object-cover">
                         <img src={react} alt="react logo" />
                     </div>
-                    <div className="tech height-[256px] w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5">
+                    <div className="tech height-[128px] w-[128px] md:h-[128px] md:w-[128px] rounded-lg overflow-hidden flex-shrink-0 m-5">
                         <img src={figma} alt="figma logo" />
                     </div>
-                    <div className="tech height-[256px] w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5">
+                    <div className="tech height-[128px] w-[128px] rounded-lg overflow-hidden flex-shrink-0 m-5">
                         <img src={javascript} alt="javascript logo" />
                     </div>
                     <div className="tech height-[256px] w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5">
