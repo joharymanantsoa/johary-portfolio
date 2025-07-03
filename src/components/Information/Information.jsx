@@ -5,7 +5,7 @@ import johary from '../../../public/CV_johary.pdf'
 function Information() {
     return(
         <>
-            <div className="hero flex flex-wrap justify-between items-center min-h-screen" id='home'>
+            <div className="hero flex flex-wrap justify-between items-center md:min-h-screen" id='home'>
                 <div className="flex flex-col justify-center">
                     <div className="hi mb-2 text-3xl">Hi, I'm</div>
                     <div className="nom md:text-8xl text-xl font-handwritten mb-2">JOHARY MANANTSOA</div>
