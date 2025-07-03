@@ -11,19 +11,19 @@
             id: 2,
             name: "joharymanantsoa",
             icon: "fa-brands fa-github fa-2xl",
-            link: "href:https://github.com/joharymanantsoa" 
+            link: "https://github.com/joharymanantsoa" 
         },
         {
             id: 3,
             name: "Johary Andriamihaja",
             icon: "fa-brands fa-linkedin fa-2xl",
-            link: ""
+            link: "https://www.linkedin.com/in/johary-andriamihaja"
         },
         {
             id: 4,
             name: "Johary Manantsoa",
             icon: "fa-brands fa-facebook fa-2xl",
-            link: ""
+            link: "https://web.facebook.com/joharymanantsoa.randriamihaja"
         },
         {
             id: 5,
