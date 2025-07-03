@@ -12,13 +12,13 @@ function Information() {
                     <div className="ligne2 text-3xl font-bold mb-2">Web Developper</div>
 
                 </div>
-                <div className="h-[256px] w-[256px]  shadow-lg rounded-lg overflow-hidden flex-shrink-0 m-5">
+                <div className="h-[256px] w-[256px] shadow-lg rounded-lg overflow-hidden flex-shrink-0 m-5">
                     <img src={profil} alt="Johary Manantsoa" className="profil w-full h-full object-cover" />
                 </div>
             </div>
             <div className=" bottom-8 right-16 flex flex-col items-center">
-                <a href={johary} download="CV_johary.pdf" className="btn-primary flex flex-col items-center text-base">
-                    download my Resume
+                <a href={johary} download="CV_johary.pdf" className=" flex flex-col items-center text-base border-2 border-blue p-4 rounded-lg shadow-lg hover:bg-white hover:text-blue transition-colors duration-300">
+                    Download my Resume
                     <span className="text-3xl mt-1 animate-bounce">&#8595;</span>
                 </a>
             </div>
