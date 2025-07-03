@@ -17,30 +17,30 @@ function Technologie() {
                     What can I use...
                 </div>
                 <div className="flex flex-wrap justify-center">
-                    <div className="tech  height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5 object-cover">
+                    <div className="tech  height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5 object-cover hover:animate-spin">
                         <img src={react} alt="react logo" />
                     </div>
-                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5">
+                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5 hover:animate-pulse">
                         <img src={figma} alt="figma logo" />
                     </div>
-                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5">
-                        <img src={javascript} alt="javascript logo" />
-                    </div>
-                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5">
+                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5 hover:animate-spin">
                         <img src={nodejs} alt="nodejs logo" />
+                    </div>
+                     <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5  hover:animate-bounce">
+                        <img src={javascript} alt="javascript logo" />
                     </div>
                     {/* </div> */}
                     {/* <div className="flex"> */}
-                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5">
+                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5 hover:animate-bounce">
                         <img src={mysql} alt="mysql logo" />
                     </div>
-                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5">
+                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5 hover:animate-spin">
                         <img src={symfony} alt="symfony logo" />
                     </div>
-                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5">
+                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5 hover:animate-pulse">
                         <img src={python} alt="python logo" />
                     </div>
-                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5">
+                    <div className="tech height-[128px] w-[128px] md:h-[256px] md:w-[256px] rounded-lg overflow-hidden flex-shrink-0 m-5 hover:animate-bounce">
                         <img src={wordpress} alt="wordpress logo" />
                     </div>
                 </div>
