@@ -21,7 +21,7 @@ div{
 
 @media ( hover :hover){
     a:hover{
-    color: rgb(127, 127, 127);
-    background-color: black;
+    color: rgb(203, 202, 209);
+    background-color: rgb(2, 11, 97);
 }
 }

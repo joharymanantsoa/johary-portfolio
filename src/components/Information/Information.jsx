@@ -1,6 +1,6 @@
 import './Information.css'
 import profil from '../../assets/johary_fond_gris.jpeg'
-import johary from '../../../public/CV_johary.pdf'
+import johary from '../../../src/CV_johary.pdf'
 
 function Information() {
     return(
@@ -17,7 +17,7 @@ function Information() {
                 </div>
             </div>
             <div className=" bottom-8 right-16 flex flex-col items-center">
-                <a href={johary} download="CV_johary.pdf" className=" flex flex-col items-center text-base border-2 border-blue p-4 rounded-lg shadow-lg hover:bg-white hover:text-blue transition-colors duration-300">
+                <a href={johary} download="CV_johary.pdf" className=" flex flex-col items-center text-base border-2 border-blue p-4 rounded-lg shadow-lg bg-white hover:bg-blue-400 hover:text-red-300 transition-colors duration-300">
                     Download my Resume
                     <span className="text-3xl mt-1 animate-bounce">&#8595;</span>
                 </a>
