@@ -13,7 +13,7 @@ function Contact(){
                         <li key={item.id} className="flex items-center justify-center my-5">
                             {item.icon && <i className={item.icon} ></i>}
                             {item.link ? (
-                                <a href={item.link} target="_blank" rel="noopener noreferrer" className='mx-5 py-10 text-4xl'>{item.name}</a>
+                                <a href={item.link} target="_blank" rel="noopener noreferrer" className='mx-5 py-10 text-3xl'>{item.name}</a>
                             ) : (
                                 <span className="mx-5 py-10 text-4xl ">{item.name}</span>
                             )}

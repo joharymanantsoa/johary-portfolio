@@ -5,7 +5,7 @@ function Footer(){
     const year = new Date().getFullYear();
     return(
         <>
-            <footer className="flex bg-gray-500 py-4 w-auto">
+            <footer className="flex bg-gray-400 py-4 w-auto">
                 <div className="w-[30%] mx-auto text-center justify-center items-center p-5"> 
                     <a href=".home">JOHARY-PORTFOLIO</a>
                 </div>
