@@ -1,0 +1,113 @@
+/* components/Technologie/Technologie.css */
+
+/* Animations existantes... */
+
+@keyframes terminalAppear {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.animate-terminalAppear {
+    animation: terminalAppear 0.3s ease-out forwards;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-slideIn {
+    animation: slideIn 0.2s ease-out forwards;
+}
+
+/* Style du terminal */
+.terminal-content {
+    font-family: 'Courier New', monospace;
+    line-height: 1.5;
+}
+
+.terminal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.terminal-content::-webkit-scrollbar-track {
+    background: #2d3748;
+}
+
+.terminal-content::-webkit-scrollbar-thumb {
+    background: #4a5568;
+    border-radius: 4px;
+}
+
+.terminal-content::-webkit-scrollbar-thumb:hover {
+    background: #718096;
+}
+
+/* Curseur clignotant */
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
+}
+
+.animate-pulse {
+    animation: blink 1s infinite;
+}
+
+/* Effet de texte qui s'écrit */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.typing-effect {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(40, end);
+}
+
+/* Style pour l'ASCII art */
+pre {
+    line-height: 1.2;
+    font-size: 10px;
+}
+
+/* Effet de glow pour le terminal */
+.terminal-glow {
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.1);
+}
+
+/* Animation pour les lignes de commande */
+@keyframes commandLine {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.command-line {
+    animation: commandLine 0.1s ease-out forwards;
+}

@@ -265,7 +265,7 @@ const Project = () => {
                   {/* Nom du fichier (tooltip moderne) */}
                   <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 
                                 opacity-0 group-hover:opacity-100 transition-all duration-300
-                                bg-gray-800 text-white text-xs py-1 px-3 rounded-full whitespace-nowrap">
+                                bg-gray-200 text-white text-xs py-1 px-3 rounded-full whitespace-nowrap">
                     {project.title}
                     <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 
                                   w-2 h-2 bg-gray-800 rotate-45"></div>
