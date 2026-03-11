@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import { Analytics } from "@vercel/analytics/react"
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Information from './components/Information/Information'
 import Technologie from './components/Technologie/Technologie'

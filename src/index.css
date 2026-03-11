@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/static/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/static/Montserrat-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/static/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
 :root {
  --main-bgcolor : #F0F0F0 ;
  --text-color : #01295c;
@@ -9,4 +30,9 @@
 body{
   background-color: var(--main-bgcolor);
   height: 70%;
+  font-family: 'Montserrat';
+}
+
+#nom{
+  font-size: 800;
 }
