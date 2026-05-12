@@ -1,12 +1,40 @@
-# React + Vite
+# PORTFOLIO | JOHARY MANANTSOA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## PRESENTATION
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ce dépôt contient le code source de mon portfolio personnel. En tant que développeur web, j'ai conçu cet espace pour centraliser mes réalisations techniques, démontrer mes compétences en ingénierie front-end et faciliter la prise de contact avec des collaborateurs ou recruteurs potentiels.
 
-## Expanding the ESLint configuration
+L'accent a été mis sur la clarté du code et l'optimisation de l'interface utilisateur pour offrir une navigation fluide sur tous les supports.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ARCHITECTURE TECHNIQUE
+
+Le projet repose sur un environnement React moderne pour garantir des performances optimales et une maintenance simplifiée.
+
+| Secteur | Technologies utilisées |
+| :--- | :--- |
+| **Framework** | React.js |
+| **Tooling** | Vite |
+| **Langage** | JavaScript (ES6+) |
+| **Style** | CSS3 (Modern Layouts) |
+| **Gestion d'état** | React Hooks (useState, useEffect) |
+
+---
+
+## FONCTIONNALITES CLES
+
+- Architecture basée sur des composants réutilisables.
+- Design adaptatif (Mobile, Tablette, Desktop).
+- Gestion dynamique des sections de projets.
+- Optimisation du rendu via le Virtual DOM de React.
+
+---
+
+## INFORMATIONS DE CONTACT
+
+- **Nom** : Johary Manantsoa
+- **Profil** : Développeur Web
+- **GitHub** : https://github.com/joharymanantsoa
