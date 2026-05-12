@@ -1,4 +1,4 @@
-import johary from '../../../src/CV_johary.pdf'
+import johary from '../../../src/Johary.pdf'
 import { MdOutlineFileDownload } from 'react-icons/md'
 
 function DownloadCV() {
